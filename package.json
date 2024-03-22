@@ -1,0 +1,36 @@
+{
+  "name": "distinctiout",
+  "version": "1.0.0",
+  "description": "Promise/Observable cache decorators",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "karma start",
+    "test:watch": "karma start --auto-watch",
+    "build": "rm -rf dist && tsc && cp package.json ./dist && cp README.md ./dist/README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SidLebsack/distinctiout.git"
+  },
+  "author": "BrentSchaden",
+  "license": "ISC",
+  "peerDependencies": {
+    "rxjs": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "@types/node": "^11.11.3",
+    "jasmine": "^3.1.0",
+    "karma": "^4.0.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-commonjs": "^1.0.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-typescript": "^4.0.0",
+    "typescript": "^2.8.1"
+  },
+  "bugs": {
+    "url": "https://github.com/SidLebsack/distinctiout.git/issues"
+  },
+  "homepage": "https://github.com/SidLebsack/distinctiout.git"
+}
